@@ -1,0 +1,1 @@
+AJSHworkMap [![Build status](https://ci.appveyor.com/api/projects/status/hcq8h1qqj2lu9ivw?svg=true)](https://ci.appveyor.com/project/Suhogruzz/ajshworkmap)
