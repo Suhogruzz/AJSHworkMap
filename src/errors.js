@@ -1,9 +1,10 @@
 export default class ErrorRepository {
   constructor() {
-    this.errors = new Map();
-    this.errors.set(1, 'SyntaxError');
-    this.errors.set(2, 'TypeError');
-    this.errors.set(3, 'RangeError');
+    this.errors = new Map([
+      [1, 'SyntaxError'],
+      [2, 'TypeError'],
+      [3, 'RangeError']
+    ]);
   }
 
   translate(code) {
